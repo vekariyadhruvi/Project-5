@@ -53,7 +53,7 @@ while True:
         eid=input("Employee ID: ")
         sal=float(input("Salary: $"))
         employees.append(Employee(n, a, eid, sal))
-        print(f"Employee created with Name:{n}, Age:{a}, Employee ID:{eid}, Salary:{sal}.")
+        print(f"Employee created with Name:{n}, Age:{a}, Employee ID:{eid}, Salary:${sal}.")
 
     elif choice==2:
         n=input("Name: ")
