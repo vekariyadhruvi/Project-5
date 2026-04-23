@@ -1,3 +1,6 @@
+employees=[]
+print("--- Python OOP Project: Employee Management System ---")
+
 class Employee:
     def __init__(self, name, age, employee_id, salary):
         self.name= name
@@ -32,10 +35,6 @@ class Developer(Employee):
         super().display()
         print("Programming Language:", self.language)
 
-
-employees=[]
-
-print("--- Python OOP Project: Employee Management System ---")
 
 while True:
     print("\nChoose an operation:")
